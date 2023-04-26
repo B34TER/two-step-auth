@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const api = "http://127.0.0.1:8000";
+const api = "http://two-step-auth-2bmr.vercel.app";
 
 export async function Login(email, password) {
   return await axios
